@@ -1,0 +1,10 @@
+package testes.locacao;
+
+import persistencia.LocacaoDAO;
+
+public class LocacaoLeTodos {
+
+    public static void main(String[] args) throws Exception {
+        System.out.println(LocacaoDAO.leTodos());
+    }
+}
